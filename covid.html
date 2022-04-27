@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Senior Survey 2022</title>
+    <!-- 
+        CHANGE THIS! "preview-img.png" defines what the preview image will be for 
+        links and social media, so be sure to change this to whatever the
+         dominant media will be
+    -->
+    <meta property="og:image" content="https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/nassau-cupola.png">
+
+    <!--
+          CHANGE THIS! Make the content something meaningful to the article
+          (reach out to editor for suggestions if needed)
+      -->
+    <meta property=“og:description” content="Welcome to The Daily Princetonian’s annual survey of first-year students. The data and stories you’ll find here, which span over a year of planning, execution, analysis, and editing, represent the collective efforts of dozens of ‘Prince’ staffers and hundreds of students in the Great Class of 2025." />
+  
+
+    <!-- defines standard character set—useful for ensuring curly quotes
+      aren't corrupted by different encodings -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <!-- ensures mobile layout works-->
+    <meta name="viewport" content="width=device-width">
+
+
+    <!-- link to our logo for favicon -->
+    <link rel="icon" type="image/png"
+        href="https://dirgyzwl2hnqq.cloudfront.net/ff9419fb986f760c1b0b24d4b9046051/dist/img/favicons/apple-icon-57x57.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics COMMENT OUT UNTIL PUB -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0QFG1LJXS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-H0QFG1LJXS');
+    </script>
+    <!--/site tag-->
+
+    <!-- 
+        a reference to our brand fonts (if there's any Adobe font not 
+        available on the stylesheet, let the head digital news 
+        editor know and it can be added) 
+    -->
+    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mhl8zjo.css">
+
+
+    <!-- reference to your CSS -->
+    <link href="styles/demographics.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/nav.css" rel="stylesheet" type="text/css" />
+
+    <!-- reference to your JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- add references to additional scripts here if needed -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- add references to additional scripts here if needed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+</head>
+
+<body>
+    <nav id="top-nav">
+        <a class="nav-brand" href="index.html">
+            THE DAILY PRINCETONIAN <span class="project-name"> | senior survey</span>
+        </a>
+        <span class="menu-icon" onclick="expand()">&#9776;</span>
+        <div class="nav-links">
+            <a href="demographics.html">Demographics</a>
+            <a href="academics.html">Academics</a>
+            <a href="lifestyle.html">Lifestyle</a>
+            <a href="views.html">Views</a>
+            <a href="covid.html" class = "selected">COVID</a>
+            <a href="methodology.html">About</a>
+        </div>
+    </nav>
+
+    <!-- Cover image & caption -->
+    <div class='coverImage' style = "background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/tiger.png);">
+
+        <div class="titleText whiteHeaderText rightHeaderText" style="padding-right: 5%; padding-top: 5%;">
+            <h1 class="title"> COVID</h1>
+            <h2 class="subtitle"> Vaccines and Quarantines </h2>
+        </div>
+     
+
+    </div>
+
+    <div class='intro-text'>
+
+        <div class="titleText mobileTitle">
+            <h1 class="title"> COVID</h1>
+            <h2 class="subtitle"> Vaccines and Quarantines </h2>
+        </div>
+     
+<p>
+    <strong>After a high school </strong>experience deeply colored by the challenges of the COVID-19 pandemic, the Class of 2025 is entering college under unprecedented circumstances. For the past two years, their lives have been shaped by government lockdowns, virtual classes, and personal health struggles. More than 1 in 10 survey respondents reported having contracted COVID-19, and nearly 9 in 10 personally knew somebody who had it — close to double the rate from last year’s survey. Students shared their opinions on vaccinations, mask mandates, and the U.S.  government’s handling of the COVID-19 pandemic, as well as their preferences for COVID-19 regulations on campus in the fall.
+    </p>
+    <br>
+    <p>
+    An important note: This survey was taken by students early in the summer and closed on July 1. Opinions may have changed given the ever-volatile state of the COVID-19 pandemic, including the spread of the Delta variant and the fourth wave of COVID-19 <a href="https://www.cnbc.com/2021/08/16/we-are-on-fire-five-us-states-set-new-records-for-covid-cases-as-hospitalizations-rise-.html">cases</a>.
+    </p>
+    </div>
+
+
+    <!-- replace id and src of datawrapper graph -->
+    <!-- add title of graph -->
+
+
+
+
+
+    <div class="tabbable-group" id="GovCovid" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h2 class="subcategory">Covid and the Government </h2>
+        <div class="pills">
+            <div class="list-group-container" id="InternationalCovid" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">International COVID Response</a></p>
+            </div>
+            <div class="list-group-container" id="LocalCovid">
+                <p class="list-group-item"><a href="">Local COVID Response</a></p>
+            </div>
+            <div class="list-group-container" id="USVaccine">
+                <p class="list-group-item"><a href="">U.S. Vaccine Rollout</a></p>
+            </div>
+            <div class="list-group-container" id="GovHandling">
+                <p class="list-group-item"><a href="">Government Handling of COVID by Political Views</a></p>
+            </div>
+            <div class="list-group-container" id="AmericanCovid">
+                <p class="list-group-item"><a href="">American COVID Response</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="InternationalCovid inner" style="opacity:1;pointer-events: auto;">
+                <iframe title="International COVID Response" aria-label="Column Chart" id="datawrapper-chart-POkNI" src="https://datawrapper.dwcdn.net/POkNI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+            </div>
+            <div class="LocalCovid inner" style="opacity:0;pointer-events: none;">
+                <iframe title="Local COVID Response" aria-label="Grouped Column Chart" id="datawrapper-chart-S5cWk" src="https://datawrapper.dwcdn.net/S5cWk/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="483"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+            </div>
+            <div class="USVaccine inner" style="opacity:0;pointer-events: none;">
+                <iframe title="U.S. Vaccine Rollout" aria-label="Column Chart" id="datawrapper-chart-vwVBR" src="https://datawrapper.dwcdn.net/vwVBR/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+            </div>
+            <div class="GovHandling inner" style="opacity:0;pointer-events: none;">
+                <iframe title="Government Handling of COVID-19 by Political Views" aria-label="Column Chart" id="datawrapper-chart-wg7CI" src="https://datawrapper.dwcdn.net/wg7CI/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+            </div>
+            <div class="AmericanCovid inner" style="opacity:0;pointer-events: none;">
+                <iframe title="American COVID Response" aria-label="Grouped Column Chart" id="datawrapper-chart-TpHfy" src="https://datawrapper.dwcdn.net/TpHfy/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="463"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script>
+
+
+
+
+        $('.list-group-container').click(function (event) {
+
+            event.preventDefault();
+
+            category = "#" + $(this).parent().parent().attr("id")
+
+            console.log(category)
+
+
+
+            // changes tab title style
+            $(category).find('.list-group-container').css('background-color', 'white');
+            $(category).find('.list-group-item').css('font-weight', 'normal');
+            $(this).css('background-color', 'orange');
+            $(this).children('.list-group-item').css('font-weight', 'bold');
+
+
+
+            $(category).find('.inner').css('opacity', '0');
+            $(category).find('.inner').css('pointer-events', 'none');
+            $(category).find('.inner.' + $(this).attr('id')).css('opacity', '1');
+            $(category).find('.inner.' + $(this).attr('id')).css('pointer-events', 'auto');
+            console.log($(this).attr('id'));
+
+        });
+    </script>
+
+</body>
+
+</html>
