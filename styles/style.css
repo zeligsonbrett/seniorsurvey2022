@@ -68,18 +68,12 @@ body {
 
 .page-nav a:hover,
 .page-nav a:focus {
-  text-shadow: 0 0 10px #6c259c, 
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c,
-    0 0 10px #6c259c;
-  color: white;
+  text-shadow: -1.5px 1.5px 0px #FC8328;
 }
-
+.page-nav .white-nav a:hover,
+.page-nav .white-nav a:focus {
+  text-shadow: -1.5px 1.5px 0px #6c249c;
+}
 /*
 .page-nav a:hover,
 .page-nav a:focus {
