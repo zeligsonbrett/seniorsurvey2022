@@ -14,10 +14,18 @@ body {
   font-size: 30px;
 }
 
+.big-width .white-nav{
+  width: 50vw;
+  position: relative;
+  top: 0px;
+  display: inline;
+}
+
 .mobileTitle .page-nav {
   margin-top: -60px;
   margin-bottom: 50px; 
-  width: 100%;
+  width: 95vw;
+  margin-left: -5%;
   text-align: center;
 }
 
@@ -29,18 +37,20 @@ body {
 .mobileTitle .page-nav a:hover{
   text-decoration: none;
   color: #6c259c; 
+  text-shadow: none;
 }
 
 .page-nav a{
   text-decoration: none;
   width: auto;
   margin: 10px;
+  margin-right: 0px;
+  padding-right: 0px;
   margin-left: none;
   color: black; 
   display: inline-block;
   white-space: no-wrap; 
 }
-
 
 .page-nav{
   margin-top: 20px;
@@ -51,16 +61,53 @@ body {
   padding-left: 0;
 }
 
+.page-nav .white-nav{
+  color: white;
+  margin-top: -20px;
+}
+
+.page-nav a:hover,
+.page-nav a:focus {
+  text-shadow: 0 0 10px #6c259c, 
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c,
+    0 0 10px #6c259c;
+  color: white;
+}
+
+/*
 .page-nav a:hover,
 .page-nav a:focus {
   text-decoration: none;
   color: #6c259c; 
-}
+} */
 
 .nav-div{
   position: relative; 
-  top: -60px; 
+  top: -65px; 
   height: 0px;
+}
+
+.backToTop{
+  background-color: #6c249c;
+  padding: 8px;
+  position: sticky;
+  bottom: 20px;
+  float: right;
+  margin-right: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.25vw;
+}
+
+.backToTop:hover{
+  background-color: black;
+  transition: ease 0.3s;
 }
 
 .tabbable-group {

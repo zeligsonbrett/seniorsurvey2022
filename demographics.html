@@ -89,16 +89,17 @@
   </nav>
 
   <!-- Cover image & caption -->
-  <div class='coverImage'
+  <div id="top" class='coverImage'
     style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/field-center.png);">
 
     <div class="titleText whiteHeaderText" style="margin-top: 30%; padding-right: 60%; padding-left: 50px;">
       <h1 class="title" style="font-size: 6vw;">DEMOGRAPHICS</h1>
       <h2 class="subtitle"> From Idaho to India </h2>
-      <h2 class="page-nav">
-        <a href="#Geography">Geography</a> 
-        <a href="#Identity">Identity</a> 
-        <a href="#Experience">Experience</a> 
+      <h2 class="page-nav big-width">
+        <a class="white-nav" href="#geographyDiv">Geography</a> 
+        <a class="white-nav" href="#identityDiv">Identity</a> 
+        <a class="white-nav" href="#experienceDiv">Experience</a> 
+      </h2>
     </div>
 
 
@@ -114,8 +115,14 @@
     <div class="titleText mobileTitle">
       <h1 class="title"> Demographics</h1>
       <h2 class="subtitle"> From Idaho to India </h2>
+      <h2 class="page-nav">
+        <a href="#geographyDiv">Geography</a> 
+        <a href="#identityDiv">Identity</a> 
+        <a href="#experienceDiv">Experience</a> 
+      </h2>
     </div>
 
+    
     <p>
       <strong>The Class of 2025</strong> brings a rich blend of backgrounds and identities to the Princeton community, a
       unique group
@@ -125,8 +132,10 @@
       and the oldest (23) respondents. Some are the first in their family to attend college, while others were born into
       a long lineage of Tigers.
     </p>
+    
   </div>
-
+    
+    
   <!-- commentary section -->
 
 
@@ -135,13 +144,14 @@
   <!-- replace id and src of datawrapper graph -->
   <!-- add title of graph -->
 
-
+  <div>
 
   <!-- explore the data section -->
   <div class='header'>
     <h1> Explore the Data </h1>
   </div>
 
+  <div class="nav-div" id="geographyDiv"></div>   
   <div class="tabbable-group" id="Geography" data-aos="fade-up" data-aos-easing="ease-in-out">
     <h2 class="subcategory">Geography</h2>
     <div class="commentary">
@@ -153,6 +163,7 @@
         the best represented international location, with nearly 15 percent of internationals identifying as Brits.
 
     </div>
+    
     <div class="pills">
       <div class="list-group-container" id="HomeStates" style="background-color: orange">
         <p class="list-group-item" style="font-weight: bold"><a href="">Home States</a></p>
@@ -183,6 +194,7 @@
     </div>
   </div>
   
+  <div class="nav-div" id="identityDiv"></div>   
   <div class="tabbable-group" id="Identity" data-aos="fade-up" data-aos-easing="ease-in-out">
     <h2 class="subcategory">Identity</h2>
     <div class="commentary">
@@ -284,6 +296,7 @@
     </div>
   </div>
   
+  <div class="nav-div" id="experienceDiv"></div>   
   <div class="tabbable-group" id="Experience" data-aos="fade-up" data-aos-easing="ease-in-out">
     <h2 class="subcategory">Experience</h2>
     <div class="commentary">
@@ -362,6 +375,8 @@
     </div>
   </div>
   
+  <a style="color: white" class="backToTop" href="#top">Back To Top</a>
+</div>
   
   
 

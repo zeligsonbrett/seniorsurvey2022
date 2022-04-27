@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Senior Survey 2022</title>
+        <!-- 
+        CHANGE THIS! "preview-img.png" defines what the preview image will be for 
+        links and social media, so be sure to change this to whatever the
+         dominant media will be
+    -->
+        <meta property="og:image"
+                content="https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/nassau-cupola.png">
+
+        <!--
+          CHANGE THIS! Make the content something meaningful to the article
+          (reach out to editor for suggestions if needed)
+      -->
+        <meta property=“og:description”
+                content="Welcome to The Daily Princetonian’s annual survey of first-year students. The data and stories you’ll find here, which span over a year of planning, execution, analysis, and editing, represent the collective efforts of dozens of ‘Prince’ staffers and hundreds of students in the Great Class of 2025." />
+
+
+        <!-- defines standard character set—useful for ensuring curly quotes
+      aren't corrupted by different encodings -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+        <!-- ensures mobile layout works-->
+        <meta name="viewport" content="width=device-width">
+
+
+        <!-- link to our logo for favicon -->
+        <link rel="icon" type="image/png"
+                href="https://dirgyzwl2hnqq.cloudfront.net/ff9419fb986f760c1b0b24d4b9046051/dist/img/favicons/apple-icon-57x57.png" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics COMMENT OUT UNTIL PUB -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0QFG1LJXS"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-H0QFG1LJXS');
+        </script>
+        <!--/site tag-->
+
+        <!-- 
+        a reference to our brand fonts (if there's any Adobe font not 
+        available on the stylesheet, let the head digital news 
+        editor know and it can be added) 
+    -->
+        <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
+        <link rel="stylesheet" href="https://use.typekit.net/mhl8zjo.css">
+
+
+        <!-- reference to your CSS -->
+        <link href="styles/demographics.css" rel="stylesheet" type="text/css" />
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <link href="styles/nav.css" rel="stylesheet" type="text/css" />
+
+        <!-- reference to your JavaScript -->
+        <script src="script.js"></script>
+
+        <!-- add references to additional scripts here if needed -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- add references to additional scripts here if needed -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+</head>
+
+<body>
+        <nav id="top-nav">
+                <a class="nav-brand" href="index.html">
+                        THE DAILY PRINCETONIAN <span class="project-name"> | senior survey</span>
+                </a>
+                <span class="menu-icon" onclick="expand()">&#9776;</span>
+                <div class="nav-links">
+                        <a href="academics.html">Academics</a>
+                        <a href="afterprinceton.html">After Princeton</a>
+                        <a href="collegelife.html" class="selected">College Life</a>
+                        <a href="demographics.html">Demographics</a>
+                        <a href="views.html">Views</a>
+                        <a href="methodology.html">About</a>
+                </div>
+        </nav>
+
+        <!-- Cover image & caption -->
+        <div class='coverImage'
+                style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/frist.png);">
+
+                <div class="titleText whiteHeaderText" style="margin-top: 30%; padding-right: 60%; padding-left: 50px;">
+                        <h1 class="title">LIFESTYLE </h1>
+                        <h2 class="subtitle"> Sex, Drugs, and Rock 'n' Roll </h2>
+                        <h2 class="page-nav" style="position: relative; top: -20px; width: 150%;">
+                                <a style="color: white" href="#dailyLifeDiv">Daily Life</a>
+                                <a style="color: white" href="#drugsDiv">Drugs</a>
+                                <a style="color: white" href="#mentalHealthDiv">Mental Health</a>
+                                <a style="color: white" href="nightLifeDiv">Night Life</a>
+                                <a style="color: white" href="sexAndRomanceDiv">Sex and Romance</a>
+                        </h2>
+                </div>
+
+
+                <!--
+			<div class = 'intro'> 
+				<p> [Introductory text] </p> 	
+			</div> 
+       -->
+        </div>
+
+        <div class='intro-text'>
+
+                <div class="titleText mobileTitle">
+                        <h1 class="title"> Lifestyle</h1>
+                        <h2 class="subtitle"> Sex, Drugs, and Rock 'n' Roll </h2>
+                        <h2 class="page-nav">
+                                <a href="#dailyLifeDiv">Daily Life</a>
+                                <a href="#drugsDiv">Drugs</a>
+                                <a href="mentalHealthDiv">Mental Health</a>
+                                <a href="nightLifeDiv">Night Life</a>
+                                <a href="sexAndRomanceDiv">Sex and Romance</a>
+                        </h2>
+                </div>
+
+                <p><strong>We asked </strong>the Class of 2025 to tell us about their experiences beyond the classroom;
+                        they told us
+                        about their experiences with drugs, daily routines, coffee habits, and sexual history. These
+                        questions offer us a window into the everyday lives of Princeton’s newest class, helping us
+                        better understand our new friends, teammates, and coworkers. Below, glimpse the data Nassau Hall
+                        does not collect. </p>
+        </div>
+
+
+        <!-- replace id and src of datawrapper graph -->
+        <!-- add title of graph -->
+
+        <!-- <div class='tabbable-group' data-aos="fade-up" data-aos-easing="ease-in-out">
+                <div class="graph">
+                        <iframe title="Age of First Alcohol Consumption" aria-label="Column Chart"
+                                id="datawrapper-chart-wEL9m" src="https://datawrapper.dwcdn.net/wEL9m/1/" loading="lazy"
+                                scrolling="no" frameborder="0"
+                                style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+                        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
+                        </script>
+                </div>
+                <div class='commentary'>
+                        Just over half of respondents reported experience consuming a full alcoholic beverage in a
+                        non-religious context. The median age at which surveyed individuals first did so was 11th grade,
+                        though over 10 percent had already drunk by the time they entered high school. Legacies and
+                        those who are not receiving need-based financial aid are more likely to have drank than their
+                        peers, as were those who had had sex. 80 percent of those who have had sex reported having
+                        downed an alcoholic beverage in a non-religious context.
+                </div>
+        </div> -->
+
+
+        <!-- explore the data section -->
+        <div class='header'>
+                <h1> Explore the Data </h1>
+        </div>
+
+        <div class="nav-div" id="dailyLifeDiv"></div>   
+        <div class="tabbable-group" id="DailyLife" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h2 class="subcategory">Daily Life</h2>
+        <div class="commentary">
+                THIS IS WHERE THE BLUB GOES
+        </div>
+        <div class="pills">
+        <div class="list-group-container" id="CallingPSAFE" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">Calling PSAFE</a></p>
+        </div><div class="list-group-container" id="CoffeeDrinkers">
+                <p class="list-group-item"><a href="">Coffee Drinkers</a></p>
+        </div><div class="list-group-container" id="Wake-upTime">
+                <p class="list-group-item"><a href="">Wake-up Time</a></p>
+        </div><div class="list-group-container" id="HoursStudying">
+                <p class="list-group-item"><a href="">Hours Studying</a></p>
+        </div><div class="list-group-container" id="DiningPlanSatisfaction">
+                <p class="list-group-item"><a href="">Dining Plan Satisfaction</a></p>
+        </div><div class="list-group-container" id="Off-CampusMeals">
+                <p class="list-group-item"><a href="">Off-Campus Meals</a></p>
+        </div><div class="list-group-container" id="HoursStudyingbyDegree">
+                <p class="list-group-item"><a href="">Hours Studying by Degree</a></p>
+        </div><div class="list-group-container" id="Off-CampusMealsbyFinAid">
+                <p class="list-group-item"><a href="">Off-Campus Meals by Fin Aid</a></p>
+        </div><div class="list-group-container" id="PSAFECallsbyEatingClub">
+                <p class="list-group-item"><a href="">PSAFE Calls by Eating Club</a></p>
+        </div><div class="list-group-container" id="DiningPlanSatisfactionbyOption">
+                <p class="list-group-item"><a href="">Dining Plan Satisfaction by Option</a></p>
+        </div><div class="list-group-container" id="CoffeebyDegreeOption">
+                <p class="list-group-item"><a href="">Coffee by Degree Option</a></p>
+        </div><div class="list-group-container" id="Wake-upTimebyDegree">
+                <p class="list-group-item"><a href="">Wake-up Time by Degree</a></p>
+        </div><div class="list-group-container" id="Caffeine">
+                <p class="list-group-item"><a href="">Caffeine</a></p>
+        </div><div class="list-group-container" id="DiningPlan">
+                <p class="list-group-item"><a href="">Dining Plan</a></p>
+        </div><div class="list-group-container" id="HoursStudyingbyFieldofStudy">
+                <p class="list-group-item"><a href="">Hours Studying by Field of Study</a></p>
+        </div><div class="list-group-container" id="Cryptocurrency">
+                <p class="list-group-item"><a href="">Cryptocurrency</a></p>
+        </div><div class="list-group-container" id="Wordle">
+                <p class="list-group-item"><a href="">Wordle</a></p>
+        </div><div class="list-group-container" id="Wake-upTimebyFieldofStudy">
+                <p class="list-group-item"><a href="">Wake-up Time by Field of Study</a></p>
+        </div><div class="list-group-container" id="SatisfactionwithDiningPlanbyDiet.Restrictions">
+                <p class="list-group-item"><a href="">Satisfaction with Dining Plan by Diet. Restrictions</a></p>
+        </div></div>
+        <div class="container">
+        <div class="CallingPSAFE inner" style="opacity:1;pointer-events:auto;">
+        <iframe title="Calling PSAFE" aria-label="Pie Chart" id="datawrapper-chart-28eFj" src="https://datawrapper.dwcdn.net/28eFj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="CoffeeDrinkers inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Coffee Drinkers" aria-label="Column Chart" id="datawrapper-chart-NOOYN" src="https://datawrapper.dwcdn.net/NOOYN/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Wake-upTime inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Wake-up Time" aria-label="Column Chart" id="datawrapper-chart-G9N8F" src="https://datawrapper.dwcdn.net/G9N8F/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="HoursStudying inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Hours Studying" aria-label="Column Chart" id="datawrapper-chart-4p0UU" src="https://datawrapper.dwcdn.net/4p0UU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="DiningPlanSatisfaction inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Dining Plan Satisfaction" aria-label="Column Chart" id="datawrapper-chart-ZtIk5" src="https://datawrapper.dwcdn.net/ZtIk5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Off-CampusMeals inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Off-Campus Meals" aria-label="Column Chart" id="datawrapper-chart-i3Ycm" src="https://datawrapper.dwcdn.net/i3Ycm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="HoursStudyingbyDegree inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Hours Studying by Degree Option" aria-label="Column Chart" id="datawrapper-chart-vG7Mt" src="https://datawrapper.dwcdn.net/vG7Mt/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Off-CampusMealsbyFinAid inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Off-Campus Meals by Financial Aid Status" aria-label="Column Chart" id="datawrapper-chart-crFm7" src="https://datawrapper.dwcdn.net/crFm7/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="PSAFECallsbyEatingClub inner" style="opacity:0;pointer-events:none;">
+        <iframe title="PSafe Calls by Eating Club" aria-label="Grouped Column Chart" id="datawrapper-chart-LB7aX" src="https://datawrapper.dwcdn.net/LB7aX/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="DiningPlanSatisfactionbyOption inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Dining Plan Satisfaction by Dining Plan Option" aria-label="Column Chart" id="datawrapper-chart-2Qhf9" src="https://datawrapper.dwcdn.net/2Qhf9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="CoffeebyDegreeOption inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Cups of Coffee per week by Degree Option " aria-label="Column Chart" id="datawrapper-chart-UzAFq" src="https://datawrapper.dwcdn.net/UzAFq/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Wake-upTimebyDegree inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Wake-up Time by Degree" aria-label="Column Chart" id="datawrapper-chart-3fcuD" src="https://datawrapper.dwcdn.net/3fcuD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Caffeine inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Caffeine" aria-label="Bar Chart" id="datawrapper-chart-fZaKm" src="https://datawrapper.dwcdn.net/fZaKm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="DiningPlan inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Dining Plan" aria-label="Bar Chart" id="datawrapper-chart-8ZE9j" src="https://datawrapper.dwcdn.net/8ZE9j/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="HoursStudyingbyFieldofStudy inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Hours Studying by Field of Study" aria-label="Column Chart" id="datawrapper-chart-9vMSL" src="https://datawrapper.dwcdn.net/9vMSL/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Cryptocurrency inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Cryptocurrency" aria-label="Pie Chart" id="datawrapper-chart-nQ6ZB" src="https://datawrapper.dwcdn.net/nQ6ZB/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Wordle inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Wordle" aria-label="Column Chart" id="datawrapper-chart-NMYaf" src="https://datawrapper.dwcdn.net/NMYaf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Wake-upTimebyFieldofStudy inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Wake-up Time by Field of Study" aria-label="Column Chart" id="datawrapper-chart-cwCgD" src="https://datawrapper.dwcdn.net/cwCgD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SatisfactionwithDiningPlanbyDiet.Restrictions inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Average Satisfaction with Dining Plan by Dietary Restrictions" aria-label="Bar Chart" id="datawrapper-chart-8i7eU" src="https://datawrapper.dwcdn.net/8i7eU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        </div>
+        </div>
+        <div class="nav-div" id="nightLifeDiv"></div>   
+        <div class="tabbable-group" id="NightLife" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h2 class="subcategory">Night Life</h2>
+        <div class="commentary">
+                THIS IS WHERE THE BLUB GOES
+        </div>
+        <div class="pills">
+        <div class="list-group-container" id="EatingClubAcceptance" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">Eating Club Acceptance</a></p>
+        </div><div class="list-group-container" id="BickerParticipation">
+                <p class="list-group-item"><a href="">Bicker Participation</a></p>
+        </div><div class="list-group-container" id="GreekLifeMembership">
+                <p class="list-group-item"><a href="">Greek Life Membership</a></p>
+        </div><div class="list-group-container" id="RushParticipation">
+                <p class="list-group-item"><a href="">Rush Participation</a></p>
+        </div><div class="list-group-container" id="DroppingGreekLife">
+                <p class="list-group-item"><a href="">Dropping Greek Life</a></p>
+        </div><div class="list-group-container" id="McCosh'd">
+                <p class="list-group-item"><a href="">McCosh'd</a></p>
+        </div><div class="list-group-container" id="PMC'd">
+                <p class="list-group-item"><a href="">PMC'd</a></p>
+        </div><div class="list-group-container" id="EatingClubMembership">
+                <p class="list-group-item"><a href="">Eating Club Membership</a></p>
+        </div><div class="list-group-container" id="McCosh'dbyEatingClub">
+                <p class="list-group-item"><a href="">McCosh'd by Eating Club</a></p>
+        </div><div class="list-group-container" id="RushParticipation">
+                <p class="list-group-item"><a href="">Rush Participation</a></p>
+        </div><div class="list-group-container" id="RushParticipationbyEatingClub">
+                <p class="list-group-item"><a href="">Rush Participation by Eating Club</a></p>
+        </div><div class="list-group-container" id="GreekLifeMembershipbyGender">
+                <p class="list-group-item"><a href="">Greek Life Membership by Gender</a></p>
+        </div><div class="list-group-container" id="EatincClubAcceptance">
+                <p class="list-group-item"><a href="">Eatinc Club Acceptance</a></p>
+        </div><div class="list-group-container" id="LegacybyEatincClub">
+                <p class="list-group-item"><a href="">Legacy by Eatinc Club</a></p>
+        </div></div>
+        <div class="container">
+        <div class="EatingClubAcceptance inner" style="opacity:1;pointer-events:auto;">
+        <iframe title="Eating Club Acceptance" aria-label="Column Chart" id="datawrapper-chart-yUnQ0" src="https://datawrapper.dwcdn.net/yUnQ0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="BickerParticipation inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Bicker Participation" aria-label="Pie Chart" id="datawrapper-chart-9qSBW" src="https://datawrapper.dwcdn.net/9qSBW/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="GreekLifeMembership inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Greek Life Membership" aria-label="Pie Chart" id="datawrapper-chart-5TFoS" src="https://datawrapper.dwcdn.net/5TFoS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="RushParticipation inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Rush Participation" aria-label="Pie Chart" id="datawrapper-chart-K7385" src="https://datawrapper.dwcdn.net/K7385/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="DroppingGreekLife inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Continuous Greek Life Membership" aria-label="Pie Chart" id="datawrapper-chart-UWknG" src="https://datawrapper.dwcdn.net/UWknG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="McCosh'd inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Getting McCoshed" aria-label="Pie Chart" id="datawrapper-chart-Qzj6n" src="https://datawrapper.dwcdn.net/Qzj6n/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="PMC'd inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Getting PMCed" aria-label="Pie Chart" id="datawrapper-chart-zKHnK" src="https://datawrapper.dwcdn.net/zKHnK/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="EatingClubMembership inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Eating Club Membership" aria-label="Column Chart" id="datawrapper-chart-jkdYB" src="https://datawrapper.dwcdn.net/jkdYB/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="McCosh'dbyEatingClub inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Getting McCosh'd by Eating Club" aria-label="Grouped Column Chart" id="datawrapper-chart-6OmQT" src="https://datawrapper.dwcdn.net/6OmQT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="RushParticipation inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Rush Participation" aria-label="Pie Chart" id="datawrapper-chart-K7385" src="https://datawrapper.dwcdn.net/K7385/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="RushParticipationbyEatingClub inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Rush Participation by Eating Club Membership" aria-label="Grouped Column Chart" id="datawrapper-chart-xk7xp" src="https://datawrapper.dwcdn.net/xk7xp/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="GreekLifeMembershipbyGender inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Greek Membership by Gender" aria-label="Column Chart" id="datawrapper-chart-d2pTV" src="https://datawrapper.dwcdn.net/d2pTV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="EatincClubAcceptance inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Post-Bicker Decisions" aria-label="Column Chart" id="datawrapper-chart-PDP8E" src="https://datawrapper.dwcdn.net/PDP8E/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="LegacybyEatincClub inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Legacy Status by Eating Club Association" aria-label="Grouped Column Chart" id="datawrapper-chart-UJIti" src="https://datawrapper.dwcdn.net/UJIti/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        </div>
+        </div>
+        <div class="nav-div" id="sexAndRomanceDiv"></div>   
+        <div class="tabbable-group" id="SexandRomance" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h2 class="subcategory">Sex and Romance</h2>
+        <div class="commentary">
+                THIS IS WHERE THE BLUB GOES
+        </div>
+        <div class="pills">
+        <div class="list-group-container" id="Sex" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">Sex</a></p>
+        </div><div class="list-group-container" id="SHARE">
+                <p class="list-group-item"><a href="">SHARE</a></p>
+        </div><div class="list-group-container" id="FrequencyofSex">
+                <p class="list-group-item"><a href="">Frequency of Sex</a></p>
+        </div><div class="list-group-container" id="AgeofFirstSexExperience">
+                <p class="list-group-item"><a href="">Age of First Sex Experience</a></p>
+        </div><div class="list-group-container" id="SexbyDegree">
+                <p class="list-group-item"><a href="">Sex by Degree</a></p>
+        </div><div class="list-group-container" id="SexbyEatingClub">
+                <p class="list-group-item"><a href="">Sex by Eating Club</a></p>
+        </div><div class="list-group-container" id="SexbyGenderIdentity">
+                <p class="list-group-item"><a href="">Sex by Gender Identity</a></p>
+        </div><div class="list-group-container" id="SexFreqbyRelationshipStatus">
+                <p class="list-group-item"><a href="">Sex Freq by Relationship Status</a></p>
+        </div><div class="list-group-container" id="SexFreqbyCryptocurrency">
+                <p class="list-group-item"><a href="">Sex Freq by Cryptocurrency</a></p>
+        </div><div class="list-group-container" id="SexFreqbyHoursStudying">
+                <p class="list-group-item"><a href="">Sex Freq by Hours Studying</a></p>
+        </div><div class="list-group-container" id="SexbyAthleteStatus">
+                <p class="list-group-item"><a href="">Sex by Athlete Status</a></p>
+        </div><div class="list-group-container" id="NumSexPartnersbyGender">
+                <p class="list-group-item"><a href="">Num Sex Partners by Gender</a></p>
+        </div><div class="list-group-container" id="RelationshipStatus">
+                <p class="list-group-item"><a href="">Relationship Status</a></p>
+        </div><div class="list-group-container" id="NumberofPartners">
+                <p class="list-group-item"><a href="">Number of Partners</a></p>
+        </div></div>
+        <div class="container">
+        <div class="Sex inner" style="opacity:1;pointer-events:auto;">
+        <iframe title="Sex" aria-label="Pie Chart" id="datawrapper-chart-ny5Au" src="https://datawrapper.dwcdn.net/ny5Au/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SHARE inner" style="opacity:0;pointer-events:none;">
+        <iframe title="SHARE Peer Assistance" aria-label="Pie Chart" id="datawrapper-chart-GATK5" src="https://datawrapper.dwcdn.net/GATK5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="FrequencyofSex inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Frequency of Sex" aria-label="Column Chart" id="datawrapper-chart-GU0A0" src="https://datawrapper.dwcdn.net/GU0A0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="AgeofFirstSexExperience inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Age of First Sexual Experience" aria-label="Column Chart" id="datawrapper-chart-nIIpY" src="https://datawrapper.dwcdn.net/nIIpY/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexbyDegree inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex by Degree" aria-label="Grouped Column Chart" id="datawrapper-chart-zixUT" src="https://datawrapper.dwcdn.net/zixUT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexbyEatingClub inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex by Eating Club" aria-label="Grouped Column Chart" id="datawrapper-chart-gHhwL" src="https://datawrapper.dwcdn.net/gHhwL/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexbyGenderIdentity inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex by Gender Identity" aria-label="Grouped Column Chart" id="datawrapper-chart-cjanl" src="https://datawrapper.dwcdn.net/cjanl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexFreqbyRelationshipStatus inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Frequency of Sex by Relationship Status" aria-label="Column Chart" id="datawrapper-chart-TcnES" src="https://datawrapper.dwcdn.net/TcnES/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexFreqbyCryptocurrency inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex Frequency by Cryptocrurrency " aria-label="Column Chart" id="datawrapper-chart-onBG3" src="https://datawrapper.dwcdn.net/onBG3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexFreqbyHoursStudying inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex Frequency by Hours Studying " aria-label="Column Chart" id="datawrapper-chart-42UmZ" src="https://datawrapper.dwcdn.net/42UmZ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="SexbyAthleteStatus inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Sex by Athlete Status " aria-label="Grouped Column Chart" id="datawrapper-chart-8BzXs" src="https://datawrapper.dwcdn.net/8BzXs/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="NumSexPartnersbyGender inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Number of Sexual Partners by Gender Identity" aria-label="Column Chart" id="datawrapper-chart-NmTVv" src="https://datawrapper.dwcdn.net/NmTVv/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="RelationshipStatus inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Relationship Status" aria-label="Pie Chart" id="datawrapper-chart-QlDBY" src="https://datawrapper.dwcdn.net/QlDBY/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="NumberofPartners inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Number of Partners" aria-label="Column Chart" id="datawrapper-chart-CSi8K" src="https://datawrapper.dwcdn.net/CSi8K/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        </div>
+        </div>
+        <div class="nav-div" id="mentalHealthDiv"></div>   
+        <div class="tabbable-group" id="MentalHealth" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h2 class="subcategory">Mental Health</h2>
+        <div class="commentary">
+                THIS IS WHERE THE BLUB GOES
+        </div>
+        <div class="pills">
+        <div class="list-group-container" id="MentalHealth" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">Mental Health</a></p>
+        </div><div class="list-group-container" id="CounselingbyDegree">
+                <p class="list-group-item"><a href="">Counseling by Degree</a></p>
+        </div><div class="list-group-container" id="CounselingbyHouseholdIncome">
+                <p class="list-group-item"><a href="">Counseling by Household Income</a></p>
+        </div><div class="list-group-container" id="CounselingandTherapy">
+                <p class="list-group-item"><a href="">Counseling and Therapy</a></p>
+        </div></div>
+        <div class="container">
+        <div class="MentalHealth inner" style="opacity:1;pointer-events:auto;">
+        <iframe title="Mental Health" aria-label="Pie Chart" id="datawrapper-chart-zSCMy" src="https://datawrapper.dwcdn.net/zSCMy/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="CounselingbyDegree inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Had Counseling by Degree Option" aria-label="Grouped Column Chart" id="datawrapper-chart-GM2eK" src="https://datawrapper.dwcdn.net/GM2eK/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="CounselingbyHouseholdIncome inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Had Counseling by Household Income" aria-label="Grouped Column Chart" id="datawrapper-chart-XXk74" src="https://datawrapper.dwcdn.net/XXk74/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="CounselingandTherapy inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Counseling and Therapy" aria-label="Column Chart" id="datawrapper-chart-JNSVA" src="https://datawrapper.dwcdn.net/JNSVA/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        </div>
+        </div>
+        <div class="nav-div" id="drugsDiv"></div>   
+        <div class="tabbable-group" id="Drugs" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h2 class="subcategory">Drugs</h2>
+        <div class="commentary">
+                THIS IS WHERE THE BLUB GOES
+        </div>
+        <div class="pills">
+        <div class="list-group-container" id="Alcohol" style="background-color: orange">
+                <p class="list-group-item" style="font-weight: bold"><a href="">Alcohol</a></p>
+        </div><div class="list-group-container" id="Cigarettes">
+                <p class="list-group-item"><a href="">Cigarettes</a></p>
+        </div><div class="list-group-container" id="VapesandElectronicCigarettes">
+                <p class="list-group-item"><a href="">Vapes and Electronic Cigarettes</a></p>
+        </div><div class="list-group-container" id="Psychedelics">
+                <p class="list-group-item"><a href="">Psychedelics</a></p>
+        </div><div class="list-group-container" id="HardDrugs">
+                <p class="list-group-item"><a href="">Hard Drugs</a></p>
+        </div><div class="list-group-container" id="DrugsforAcademics">
+                <p class="list-group-item"><a href="">Drugs for Academics</a></p>
+        </div><div class="list-group-container" id="Marijuana">
+                <p class="list-group-item"><a href="">Marijuana</a></p>
+        </div><div class="list-group-container" id="AlcoholConsumpbyLegacy">
+                <p class="list-group-item"><a href="">Alcohol Consump by Legacy</a></p>
+        </div><div class="list-group-container" id="AlcoholConsumpFrequencybyDegree">
+                <p class="list-group-item"><a href="">Alcohol Consump Frequency by Degree</a></p>
+        </div></div>
+        <div class="container">
+        <div class="Alcohol inner" style="opacity:1;pointer-events:auto;">
+        <iframe title="Alcohol" aria-label="Column Chart" id="datawrapper-chart-Ihxk3" src="https://datawrapper.dwcdn.net/Ihxk3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Cigarettes inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Cigarettes" aria-label="Column Chart" id="datawrapper-chart-6ltsr" src="https://datawrapper.dwcdn.net/6ltsr/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="VapesandElectronicCigarettes inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Vapes and Electronic Cigarettes" aria-label="Column Chart" id="datawrapper-chart-mihLD" src="https://datawrapper.dwcdn.net/mihLD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Psychedelics inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Psychedelics" aria-label="Column Chart" id="datawrapper-chart-WUz1i" src="https://datawrapper.dwcdn.net/WUz1i/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="HardDrugs inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Hard Drugs" aria-label="Column Chart" id="datawrapper-chart-6tk9Z" src="https://datawrapper.dwcdn.net/6tk9Z/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="DrugsforAcademics inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Drugs for Focus or Academics" aria-label="Column Chart" id="datawrapper-chart-lOa8H" src="https://datawrapper.dwcdn.net/lOa8H/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="Marijuana inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Marijuana" aria-label="Column Chart" id="datawrapper-chart-b267y" src="https://datawrapper.dwcdn.net/b267y/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="AlcoholConsumpbyLegacy inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Alcohol Consumption by Legacy Status " aria-label="Column Chart" id="datawrapper-chart-qUp0c" src="https://datawrapper.dwcdn.net/qUp0c/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        <div class="AlcoholConsumpFrequencybyDegree inner" style="opacity:0;pointer-events:none;">
+        <iframe title="Alcohol Consumption Frequency by Degree Option" aria-label="Column Chart" id="datawrapper-chart-p3mAb" src="https://datawrapper.dwcdn.net/p3mAb/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script></div>
+        </div>
+        </div>
+        
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+                AOS.init();
+        </script>
+
+        <script>
+
+
+
+
+                $('.list-group-container').click(function (event) {
+
+                        event.preventDefault();
+
+                        category = "#" + $(this).parent().parent().attr("id")
+
+                        console.log(category)
+
+
+
+                        // changes tab title style
+                        $(category).find('.list-group-container').css('background-color', 'white');
+                        $(category).find('.list-group-item').css('font-weight', 'normal');
+                        $(this).css('background-color', 'orange');
+                        $(this).children('.list-group-item').css('font-weight', 'bold');
+
+
+
+                        $(category).find('.inner').css('opacity', '0');
+                        $(category).find('.inner').css('pointer-events', 'none');
+                        $(category).find('.inner.' + $(this).attr('id')).css('opacity', '1');
+                        $(category).find('.inner.' + $(this).attr('id')).css('pointer-events', 'auto');
+                        console.log($(this).attr('id'));
+
+                });
+        </script>
+
+</body>
+
+</html>

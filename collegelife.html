@@ -89,18 +89,18 @@
         </nav>
 
         <!-- Cover image & caption -->
-        <div class='coverImage'
+        <div id="top" class='coverImage'
                 style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/frist.png);">
 
-                <div class="titleText whiteHeaderText" style="margin-top: 30%; padding-right: 60%; padding-left: 50px;">
+                <div class="titleText whiteHeaderText" style="margin-top: 30%; padding-right: 0; padding-left: 50px;">
                         <h1 class="title">LIFESTYLE </h1>
                         <h2 class="subtitle"> Sex, Drugs, and Rock 'n' Roll </h2>
-                        <h2 class="page-nav">
-                                <a href="#DailyLife">Daily Life</a> 
-                                <a href="#NightLife">Night Life</a> 
-                                <a href="#SexandRomance">Sex and Romance</a> 
-                                <a href="#MentalHealth">Mental Health</a>
-                                <a href="#Drugs">Drugs</a>
+                        <h2 style="margin-top: 5px" class="page-nav big-width">
+                                <a class="white-nav" href="#dailyLifeDiv">Daily Life</a>
+                                <a class="white-nav" href="nightLifeDiv">Night Life</a>
+                                <a class="white-nav" href="sexAndRomanceDiv">Sex and Romance</a>
+                                <a class="white-nav" href="#mentalHealthDiv">Mental Health</a>
+                                <a class="white-nav" href="#drugsDiv">Drugs</a>                                
                         </h2>
                 </div>
 
@@ -117,6 +117,15 @@
                 <div class="titleText mobileTitle">
                         <h1 class="title"> Lifestyle</h1>
                         <h2 class="subtitle"> Sex, Drugs, and Rock 'n' Roll </h2>
+                        <h2 class="page-nav">
+                                <a href="#dailyLifeDiv">Daily Life</a>
+                                <a href="nightLifeDiv">Night Life</a>
+                                <a href="sexAndRomanceDiv">Sex and Romance</a>
+                                <a href="mentalHealthDiv">Mental Health</a>
+                                <a href="#drugsDiv">Drugs</a>
+                        
+                                
+                        </h2>
                 </div>
 
                 <p><strong>We asked </strong>the Class of 2025 to tell us about their experiences beyond the classroom;
@@ -150,12 +159,14 @@
                 </div>
         </div> -->
 
+        <div>
 
         <!-- explore the data section -->
         <div class='header'>
                 <h1> Explore the Data </h1>
         </div>
 
+        <div class="nav-div" id="dailyLifeDiv"></div> 
         <div class="tabbable-group" id="DailyLife" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <h2 class="subcategory">Daily Life</h2>
                 <div class="commentary">
@@ -296,6 +307,7 @@
                 </div>
         </div>
         
+        <div class="nav-div" id="nightLifeDiv"></div>  
         <div class="tabbable-group" id="NightLife" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <h2 class="subcategory">Night Life</h2>
                 <div class="commentary">
@@ -402,6 +414,7 @@
                 </div>
         </div>
         
+        <div class="nav-div" id="sexAndRomanceDiv"></div>   
         <div class="tabbable-group" id="SexandRomance" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <h2 class="subcategory">Sex and Romance</h2>
                 <div class="commentary">
@@ -513,6 +526,7 @@
                 </div>
         </div>
         
+        <div class="nav-div" id="mentalHealthDiv"></div>
         <div class="tabbable-group" id="MentalHealth" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <h2 class="subcategory">Mental Health</h2>
                 <div class="commentary">
@@ -554,6 +568,7 @@
                 </div>
         </div>
         
+        <div class="nav-div" id="drugsDiv"></div>  
         <div class="tabbable-group" id="Drugs" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <h2 class="subcategory">Drugs</h2>
                 <div class="commentary">
@@ -630,7 +645,8 @@
                         </div>
                 </div>
         </div>
-        
+        <a style="color: white" class="backToTop" href="#top">Back To Top</a>
+</div>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
